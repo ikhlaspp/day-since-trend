@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+    border:2px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.form .items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    size: 1.1em;
+    background-color: black;
+    color: white;
+}
